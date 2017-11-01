@@ -3,3 +3,21 @@
   text-align: center;
   background-image: url("../img/headerBg.jpg");
 }
+.buttons{
+
+}
+.col-lg-6#intro{
+margin: 3%;
+background-color:#E5EEF6;
+opacity: 0.8;
+}
+ul{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+li{
+  margin-bottom: 10px;
+}
+body{
+  background-image: url("../img/bodyBg.jpg");
+}
