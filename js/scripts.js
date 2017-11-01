@@ -1,4 +1,4 @@
-//business logic
+//businessLogic
 function Places(country, location, means, landmark, month, time) {
   this.country = country;
   this.location = location;
@@ -9,5 +9,9 @@ function Places(country, location, means, landmark, month, time) {
 }
 var maasaiMara = new Places("Kenya","Narok County",["Road","Air"],"Mara River","November","Afternoon");
 var malindi = new Places("Kenya","Mombasa County",["Road","Air"],"Indian Ocean","December","Noon");
-var zanzibar = new Places("Tanzania","Zanzibar",["Road","Air"],"Indian Ocean","August","Noon");
+var zanzibar = new Places("Tanzania","Zanzibar",["Road","Air","Water"],"Indian Ocean","August","Noon");
 var sychelles = new Places("Sychelles","Southern Africa",["Road","Air","Water"],"Indian Ocean","August","Noon");
+var morocco = new Places("Morocco", "Northen Africa",["Road","Air", "Water"],"Rabat","May","Evening");
+
+//userEndLogic
+$()
