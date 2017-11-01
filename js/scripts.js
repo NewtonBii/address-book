@@ -8,7 +8,7 @@ function Places(country, location, means, landmark, month, time) {
   obj.month = month;
   obj.time = time;
   obj.describe=function () {
-    alert("It is Located in "+ this.country+", " +this.location + " and you can travel by" + this.means + ". The first feature you are likely to see is" + this.landmark + " which is awesome. The best time to travel is " + this.month + " in the " + this.time+ ".");
+    alert("It is Located in "+ this.country+", " +this.location + " and you can travel by " + this.means + ". The first feature you are likely to see is " + this.landmark + " which is awesome. The best time to travel is " + this.month + " in the " + this.time+ ".");
   };
   return obj;
 }
