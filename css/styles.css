@@ -6,10 +6,10 @@
 .buttons{
 
 }
-.col-lg-6#intro{
-margin: 3%;
+.col-sm-6{
 background-color:#E5EEF6;
 opacity: 0.8;
+
 }
 ul{
   margin-bottom: 10px;
