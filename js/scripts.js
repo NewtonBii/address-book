@@ -1,22 +1,13 @@
 //business logic
-
-function Contact(first,last){
-  this.firstName=first;
-  this.lastName=last;
+function Places(country, location, means, landmark, month, time) {
+  this.country = country;
+  this.location = location;
+  this.means = means;
+  this.landmark = landmark;
+  this.month = month;
+  this.time = time;
 }
-
-//userInterface
-$("form#new-contact").submit(function(event) {
-      event.preventDefault();
-
-      var inputtedFirstName = $("input#new-first-name").val();
-      var inputtedLastName = $("input#new-last-name").val();
-
-      var newContact = new Contact(inputtedFirstName, inputtedLastName);
-
-      $("ul#contacts").append("<li>" + newContact.firstName + "</li>");
-      $("ul#contacts").append("<li>" + newContact.lastName + "</li>");
-
-      $("input#new-first-name").val("");
-      $("input#new-last-name").val("");
-    });
+var maasaiMara = new Places("Kenya","Narok County",["Road","Air"],"Mara River","November","Afternoon");
+var malindi = new Places("Kenya","Mombasa County",["Road","Air"],"Indian Ocean","December","Noon");
+var zanzibar = new Places("Tanzania","Zanzibar",["Road","Air"],"Indian Ocean","August","Noon");
+var sychelles = new Places("Sychelles","Southern Africa",["Road","Air","Water"],"Indian Ocean","August","Noon");

@@ -1,12 +1,5 @@
-#show-contact {
-    display: none;
-  }
-
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-
-  .contact:hover {
-    text-decoration: underline;
-  }
+.container#heading{
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  background-image: url("../img/headerBg.jpg");
+}
